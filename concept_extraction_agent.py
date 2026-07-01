@@ -25,7 +25,7 @@ load_dotenv(override=True)
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Models tried in order; each has a separate free-tier quota pool
-_MODELS = ["gemini-1.5-flash", "gemini-1.5-flash-8b", "gemini-2.5-flash"]
+_MODELS = ["gemini-2.5-flash", "gemini-2.0-flash"]
 
 _PROMPT = (
     "You are an expert educational content analyzer. Look at this image of student notes "
